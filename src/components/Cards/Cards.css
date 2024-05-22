@@ -1,0 +1,64 @@
+.card:hover{
+    box-shadow:0 17px 34px 0 rgba(44, 39, 56, 0.04), 0 8px 17px 0 rgba(44, 39, 56, 0.02);
+}
+.home-second-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 0 calc(100% / 6);;
+}
+.home-second-block a{
+    text-decoration: none;
+}
+.yasayis-k{
+    display: flex; 
+    align-items: center;
+}
+
+.yasayis-k img{
+    padding: 0 10px;
+}
+.switcher{
+    display: flex;
+    margin-left: 30px;
+    height: initial;
+    border-radius: 19px;
+    border: 1px solid #ebe7e2;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #4d4d4d;
+    height: 44px;
+    align-items: center;
+    
+}
+.switcher img{
+    height: 27px;
+
+}
+.home-third-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #fff;
+    margin: 0 calc(100% / 6);
+}
+.home-third-block div a{
+    text-decoration: none;
+}
+.home-fourth-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #fff;
+    margin: 0 calc(100% / 6);;
+}
+@media(max-width:800px){
+    .home-second-block, .home-third-block, .home-fourth-block{
+        padding: 0;
+        margin: 0;
+    }
+}

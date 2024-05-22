@@ -1,0 +1,133 @@
+.home{
+     background-color: #f4f2ef;
+     
+}
+.home-1{
+    padding-top: 19px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 14px ;
+}
+.boxes-flex{
+    display: flex;
+    background-color: white;
+}
+.boxes{
+    border-right: 1px solid #eceae8;
+    width: calc(100% / 4);
+    margin: 0;
+    padding: 16px 13px 15px 10px;
+}
+.boxes h5{
+    margin-bottom: 10px; 
+    font-size: 16px;
+   
+}
+.boxes li{
+    margin-bottom: 10px ;
+    list-style-type: none;
+    color: #3d5af3;
+}
+.boxes li a{
+     text-decoration: none;
+}
+.top-of-boxes{
+    display: flex;
+    font-size: 16px;
+    color: #3d5af3;
+    line-height: 30px;
+    padding: 6px 10px 0;
+    border-bottom: 1px solid #eceae8;
+}
+.t-of-b-1{
+    border-bottom: 2px solid #3d5af3;
+}
+.t-of-b-2{
+    margin-left: 25px;
+}
+.top-of-boxes a{
+    text-decoration: none;
+    outline: none;
+    display: block;
+    font-size: 15px;
+    color: #3d5af3;
+    margin-left: auto;
+}
+.home-first{
+    display: flex;
+    flex-direction: column;
+    width: 735px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px 0 rgba(168,156,144,0.15);
+    border: 1px solid #eceae8;
+    margin-right: 8px;
+}
+aside{
+    width: 217px;
+    display: flex;
+    flex-direction: column;
+    
+}
+aside img{
+    width: 40px;
+    padding: 15px 0 0 10px;
+}
+.aside-block{
+    display: flex;
+    margin-bottom: 8px ;
+    
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 3px 7px 0 rgba(168,156,144,0.15);
+    border: 1px solid #eceae8;
+}
+.aside-text{
+    padding: 15px 21px 18px 10px;
+}
+
+.opisaniye{
+    padding: 10px 0 20px;
+    font-size: 15px;
+    color: #464646;
+    border-bottom: 2px solid #f2f2f2;
+    margin: 0 calc(100%/6)
+}
+.opisaniye p{
+    margin-block-start: 1em;
+    margin-block-end: 1em
+}
+.opisaniye h3{
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.opisaniye a{
+    color: #333;
+    text-decoration: none;
+    outline: none;
+}
+@media(max-width:800px){
+.home-second-block{
+    padding: 0;
+    margin: 0;
+}
+.home-first{
+    width: 100%;
+}
+.header-second-block-first img{
+    width: 100px;
+}
+.aside-img{
+    width: 20px;
+}
+.aside-text{
+    padding: 0;
+}
+.boxes{
+    padding: 0;
+}
+}

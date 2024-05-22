@@ -1,0 +1,52 @@
+
+.cards-agency {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px calc(100%/5);
+    background-color: #f4f2ef;
+  }
+  
+  .card-agency {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 450px;
+    box-shadow:0 17px 34px 0 rgba(44, 39, 56, 0.04), 0 8px 17px 0 rgba(44, 39, 56, 0.02);
+  }
+
+  .card-agency img {
+    width: 200px;
+  }
+  
+  .card-content {
+    padding: 20px;
+    display: flex;
+  }
+  .card-block{
+    padding-left: 15px;
+  }
+  /* .card-block:hover{
+    background-color: lightblue;
+  } */
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-view {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .card-description {
+    max-height: 79.95px;
+    font-size: 13px;
+    line-height: 1.23;
+    color: rgb(106, 106, 106);
+    margin: 0px;
+    padding: 0px 0px 10px 0 px;
+}
+  

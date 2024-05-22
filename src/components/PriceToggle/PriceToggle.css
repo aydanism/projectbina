@@ -1,0 +1,24 @@
+.switcher {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+  }
+  
+  .switcher button {
+    background: none;
+    border: transparent;
+    color: #333;
+    cursor: pointer;
+
+  }
+  
+  .switcher img {
+    width: 70px;
+    height: auto;
+  }
+
+  

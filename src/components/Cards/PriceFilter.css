@@ -1,0 +1,6 @@
+.price-filter{
+    display: flex;
+    padding: 15px 10px;
+    width: 25vh;
+    background-color: white;
+}
